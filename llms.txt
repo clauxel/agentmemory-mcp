@@ -1,0 +1,10 @@
+Agentmemory MCP
+
+Paid remote MCP for persistent AI agent memory, analytics, checkout, and search-readiness.
+
+Website: https://agentmemory.space/
+MCP endpoint: https://agentmemory.space/mcp
+Server card: https://agentmemory.space/.well-known/mcp/server-card.json
+Registry name: space.agentmemory/agentmemory-mcp
+Auth: Authorization: Bearer <token> after checkout and token claim.
+Boundary: read-only fixed tools for AI agent memory; no arbitrary shell, arbitrary SQL, deployment, deletion, or payment configuration tools.
