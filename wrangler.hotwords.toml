@@ -1,0 +1,23 @@
+name = "agentmemory-hotword-pages"
+main = "worker/hotwords.js"
+compatibility_date = "2026-06-17"
+workers_dev = true
+routes = [
+  { pattern = "agentmemory.space/mcp-memory-server*", zone_name = "agentmemory.space" },
+  { pattern = "agentmemory.space/ai-agent-memory*", zone_name = "agentmemory.space" },
+  { pattern = "agentmemory.space/persistent-agent-memory*", zone_name = "agentmemory.space" },
+  { pattern = "agentmemory.space/sitemap.xml*", zone_name = "agentmemory.space" },
+  { pattern = "agentmemory.space/robots.txt*", zone_name = "agentmemory.space" },
+  { pattern = "agentmemory.space/llms.txt*", zone_name = "agentmemory.space" },
+  { pattern = "www.agentmemory.space/mcp-memory-server*", zone_name = "agentmemory.space" },
+  { pattern = "www.agentmemory.space/ai-agent-memory*", zone_name = "agentmemory.space" },
+  { pattern = "www.agentmemory.space/persistent-agent-memory*", zone_name = "agentmemory.space" },
+  { pattern = "www.agentmemory.space/sitemap.xml*", zone_name = "agentmemory.space" },
+  { pattern = "www.agentmemory.space/robots.txt*", zone_name = "agentmemory.space" },
+  { pattern = "www.agentmemory.space/llms.txt*", zone_name = "agentmemory.space" }
+]
+
+[assets]
+directory = "./public-hotwords"
+binding = "ASSETS"
+run_worker_first = true

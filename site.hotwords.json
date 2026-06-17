@@ -1,0 +1,24 @@
+{
+  "brand": "Agentmemory MCP",
+  "domain": "agentmemory.space",
+  "tagline": "Hosted memory tools for AI agents that need durable context, retrieval boundaries, and audit-ready memory operations.",
+  "description": "Hosted memory tools for AI agents that need durable context, retrieval boundaries, and audit-ready memory operations.",
+  "audience": "AI agent teams, MCP operators, and developers adding persistent memory to autonomous workflows",
+  "pages": [
+    [
+      "mcp-memory-server",
+      "MCP memory server for AI agents",
+      "Design a hosted MCP memory server path with token access, scoped retrieval, and clear operational boundaries."
+    ],
+    [
+      "ai-agent-memory",
+      "AI agent memory workflows",
+      "Give agent teams a practical way to evaluate durable context, search recall, retention, and handoff evidence."
+    ],
+    [
+      "persistent-agent-memory",
+      "Persistent agent memory readiness",
+      "Review what needs to be retained, forgotten, exported, and protected before long-running agents depend on memory."
+    ]
+  ]
+}
